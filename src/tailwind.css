@@ -1,3 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .herobackground {
+      background-image: url("img/bg.png");
+    }
+
+@font-face {
+  font-family: "Silk Serif", Fallback, sans-serif;
+  src: url("./silk-serif-cufonfonts/SilkSerifBlack.otf");
+}
+
+@layer base {
+  html {
+    font-family: "Lato", sans-serif;
+  }
+  h1 {
+    font-family: "Silk Serif", black;
+  }
+}
+
+.box {
+  width: 100%;
+  overflow: hidden;
+  height: 4rem;
+}
