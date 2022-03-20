@@ -7,11 +7,6 @@
   src: url("./silk-serif-cufonfonts/SilkSerifBlack.otf");
 }
 
-/* @layer components {
-    .herobackground {
-      background-image: url("./img/bg.png");
-    } */
-
 @layer base {
   html {
     font-family: "Lato", sans-serif;
@@ -25,4 +20,10 @@
   width: 100%;
   overflow: hidden;
   height: 4rem;
+}
+
+@layer components {
+  .herobackground {
+    background-image: url("img/bg.png");
+  }
 }
