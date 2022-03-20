@@ -2,15 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer components {
-    .herobackground {
-      background-image: url("img/bg.png");
-    }
-
 @font-face {
   font-family: "Silk Serif", Fallback, sans-serif;
   src: url("./silk-serif-cufonfonts/SilkSerifBlack.otf");
 }
+
+/* @layer components {
+    .herobackground {
+      background-image: url("./img/bg.png");
+    } */
 
 @layer base {
   html {
@@ -21,7 +21,7 @@
   }
 }
 
-.box {
+.text-box {
   width: 100%;
   overflow: hidden;
   height: 4rem;
