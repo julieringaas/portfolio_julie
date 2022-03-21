@@ -19,7 +19,7 @@
 .text-box {
   width: 100%;
   overflow: hidden;
-  height: 4rem;
+  height: 60vh;
 }
 
 @layer components {
