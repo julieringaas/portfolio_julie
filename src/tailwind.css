@@ -27,25 +27,24 @@
     font-size: 0.8rem;
   }
 }
-
+/* 
 .text-box {
   width: 100%;
   overflow: hidden;
-  height: 60vh;
-}
+  height: 50vh;
+} */
 
 .links {
   font-family: "Silk Serif", black;
-  font-size: 3rem;
 }
 
 .line {
   border-top: 1px solid black;
-  width: 200vw;
+  width: 100vw;
 }
 
 @layer components {
   .herobackground {
-    background-image: url("img/bg.png");
+    background-image: url("./img/bg4.png");
   }
 }
