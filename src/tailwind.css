@@ -14,6 +14,18 @@
   h1 {
     font-family: "Silk Serif", black;
   }
+
+  h2 {
+    font-family: "Silk Serif", black;
+  }
+  h3 {
+    font-family: "Silk Serif", black;
+    font-size: 1.2rem;
+  }
+  p {
+    font-family: "lato", sans-serif;
+    font-size: 0.8rem;
+  }
 }
 
 .text-box {
@@ -25,6 +37,11 @@
 .links {
   font-family: "Silk Serif", black;
   font-size: 3rem;
+}
+
+.line {
+  border-top: 1px solid black;
+  width: 200vw;
 }
 
 @layer components {
