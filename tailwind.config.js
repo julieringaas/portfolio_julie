@@ -3,12 +3,15 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "hero-pattern": "url('/src/bg.png')",
+        cursor: {
+          customcursor: "url(img/mincursor.png), default",
+        },
       },
     },
     plugins: [
       require("@tailwindcss/typography"),
       require("@tailwindcss/forms"),
+      require("daisyui"),
     ],
   },
 };
